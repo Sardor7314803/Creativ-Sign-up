@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.box{
+    margin-top: 15vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons-1,
+.icons-2{
+    display: none;
+}
+
+.box > .icon > .defalut,
+.icons-1,
+.icons-2{
+    font-size: 75px;
+}
+
+.name,
+.password{
+    padding: 5px;
+    margin-top: 10px;
+    outline: none;
+}
+
+.btn{
+    padding: 9px 17px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(57, 57, 191);
+}
